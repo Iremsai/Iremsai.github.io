@@ -6,7 +6,9 @@
     <meta name="description" content="Это моя первая страница">
     <meta name="author" content="Мэри">
     <meta name="robots" content="noindex, nofollow">
-    <meta property="og: title" content="Это моя первая страница">
+    <meta property="og:title" content="Это моя первая страница">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Мэри Потёмкина - веб-разработчик</title>
 </head>
@@ -18,129 +20,158 @@
         <nav>
 
             <div class="logo">Мэри Потёмкина</div>
-            <div class="menu"><ul>
-                <li>Обо мне</li>
-                <li>Услуги</li>
-                <li>Кейсы</li>
-                <li>Прайс</li>
-                <li>Отзывы</li>
-                <li>Контакты</li>
-            </ul></div>
+            <div class="menu">
+                <ul>
+                    <li>Обо мне</li>
+                    <li>Услуги</li>
+                    <li>Кейсы</li>
+                    <li>Прайс</li>
+                    <li>Отзывы</li>
+                    <li>Контакты</li>
+                </ul>
+            </div>
 
         </nav>
 
     </header>
+
+    <div class="main">
+        <div class="title_container">
+            <h1>Привет <br> Я Мэри Потёмина</h1>
+            <h4>Фулл стек веб-разработчик</h4>
+            <input type="submit" value="Обо мне">
+            <input type="submit" value="Мои работы">
+        </div>
+    </div>
     
-    <div class="main"><div class="title_container">
-        <h1>Привет <br> Я Мэри Потёмина</h1>
-        <h4>Фулл стек веб-разработчик</h4>
-        <input type="submit" value="Обо мне">
-        <input type="submit" value="Мои работы">
-    </div></div>
-    <div class="main"><div class="title_container">
-        <h2>Обо мне</h2>
-        <img src="img/i.jpg" style="width: 200px" alt="А где картинка 0-0?">
-        <p>На сегодняшний момент учусь на курсе по веб-разработке Андея Брауна. Курс очень насышенный и дает не только теоретические знания,но и практические. Далее собираюсь поступать на курс от института ИТМО и постепенно становиться профессиональным веб-разработчиком.</p>
-        <p>Сама я закончила университет СПбГМТУ по направлению корабельной энергетики и автоматики. Успела поработать инженером конструктором и инженером по подготовке производства на заводе, так что с понятиями сроков и дедлайнов я знакома очень хорошо.В веб-разработке я новичок, однако уже сейчас могу Вам предложить ряд определенных услуг.</p>
-         <input type="submit" value="Скачать резюме">
-    </div></div>
-    <div class="main"><div class="title_me">
-    <h2>Что я умею</h2>
-    <ul>
-       <img src="img/notebook.png" alt="А где картинка 0-0?">
-        <li>Web-дизайн</li>
-        <span>Создам красивый и удобный сайт, соответствующий Вашим желаниям.</span>
-       <br><img src="img/Arrows.png" alt="А где картинка 0-0?">
-        <li>Разработка</li>
-        <span>Разработаю сайт отвечающий Вашим задачам в указанные Вами сроки</span>
-        <br><img src="img/Rocket.png" alt="А где картинка 0-0?">
-        <li>CЕО-оптимизация</li>
-        Ваши клиенты всегда слегкостью смогут найти сайт и интересующую их информацию
-        <br><img src="img/mouthpiece.png" alt="А где картинка 0-0?">
-        <li>Маркетинг</li>
-        <span>Ваши клиенты всегда останутся довольными</span>
-    </ul>
-    </div></div>
-    <div class="main"><div class="title_case">
-       <h2>Кейсы</h2>
-       <p>Отработанные проекты</p>
-       <img src="img/photo.png" alt="А где картинка 0-0?">
-        <p>Клиент<br>Компания ОАО "Тюльпанчик"</p>
-        <p>Сайт</p>
-        <a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%8E%D0%BB%D1%8C%D0%BF%D0%B0%D0%BD">Тюльпаны</a>
-        <input type="submit" value="Перейти на сайт" >
-        <p>Проект: тюльпаны в дом<br>
-        <span>Тюльпан – всемирно известное декоративное луковичное растение с широколанцетными листьями и цветками разнообразной окраски и формы. Цветущие растения также требуют определенного ухода. Так, например, их полив должен происходить не чаще двух раз в неделю. Подкормка жидкими удобрениями – один раз в месяц. Также необходимо следить за появлением пожелтевших листьев, которые следует удалять – это нужно для того, чтобы они не отбирали силы у цветка.</span></p>       
-    </div></div>
-    <div class="main"><div class="title_price">
-        <h2>Приблизительная стоимость услуг</h2>
-        <ul>
-        <li><h4>ТИП САЙТА</h4></li>
-           <select name="list1" id="list" option>
-            <option value="option1">Option1</option>
-            <option value="option2">Option2</option>
-            <option value="option3">Option3</option>
-            <option value="option4">Option4</option>
-        </select>
-        <li><h4>ДИЗАЙН</h4></li>
-           <select name="list1" id="list" option>
-            <option value="option5">Option5</option>
-            <option value="option6">Option6</option>
-            <option value="option7">Option7</option>
-            <option value="option8">Option8</option>
-        </select>
-        <li><h4>АДАПТИВНОСТЬ</h4></li>
-           <select name="list1" id="list" option>
-            <option value="option9">Option9</option>
-            <option value="option10">Option10</option>
-            <option value="option11">Option11</option>
-            <option value="option12">Option12</option>
-        </select>
-        </ul>
-        <spain>Сроки<br> Стоимость</spain>
-         </div></div>
-         <div class="main"><div class="title_statistika">
+        <div class="title_me">
+            <h2>Обо мне</h2>
+            <img src="img/i.jpg" style="width: 200px" alt="А где картинка 0-0?">
+            <p class="one">На сегодняшний момент учусь на курсе по веб-разработке Андея Брауна. Курс очень насыщенный и дает не только теоретические знания, но и практические. Далее собираюсь поступать на курс от института ИТМО и постепенно становиться профессиональным веб-разработчиком.</p>
+            <p class="two">Сама я закончила университет СПбГМТУ по направлению корабельной энергетики и автоматики. Успела поработать инженером конструктором и инженером по подготовке производства на заводе, так что с понятиями сроков и дедлайнов я знакома очень хорошо.В веб-разработке я новичок, однако уже сейчас могу Вам предложить ряд определенных услуг.</p>
+            <input type="submit" value="Скачать резюме">
+        </div>
+   
+    
+        <div class="title_ican">
+            <h2>Что я умею</h2>
+            <ul>
+                
+                <li class="web">Web-дизайн</li>
+                <span class="make">Создам красивый и удобный сайт,<br> соответствующий Вашим желаниям.</span>
+            
+                <li class="raz">Разработка</li>
+                <span class="s">Разработаю сайт <br> отвечающий Вашим задачам</span>
+                
+                <li class="ceo">CЕО-оптимизация</li>
+               <span class="k"> Ваши клиенты слегкостью  смогут найти сайт и интересующую их информацию</span>
+               
+                <li class="M">Маркетинг</li>
+                <span class="D">Ваши клиенты <br> всегда останутся <br>довольными</span>
+            </ul>
+        </div>
+    
+    
+        <div class="title_case">
+            <h2>Кейсы</h2>
+            <p class="projekt">Отработанные проекты</p>
+            <img src="img/photo.png" alt="А где картинка 0-0?">
+            <p class="kli">Клиент:
+            <br> <span class="klis">Компания ОАО "Тюльпанчик"</span></p>
+            <p class="sait">Сайт</p>
+            <a  href="https://ru.wikipedia.org/wiki/%D0%A2%D1%8E%D0%BB%D1%8C%D0%BF%D0%B0%D0%BD">Тюльпаны</a>
+            <input type="submit" value="Перейти на сайт">
+            <p class="Pro">Проект: тюльпаны в дом<br>
+                <span class="tp">Тюльпан – всемирно известное декоративное луковичное растение с широколанцетными листьями и цветками разнообразной окраски и формы. Цветущие растения также требуют определенного ухода. Так, например, их полив должен происходить не чаще двух раз в неделю. Подкормка жидкими удобрениями – один раз в месяц. Также необходимо следить за появлением пожелтевших листьев, которые следует удалять – это нужно для того, чтобы они не отбирали силы у цветка.</span></p>
+            
+        </div>
+    
+   
+        <div class="title_price">
+            <h2>Приблизительная стоимость услуг</h2>
+            <ul>
+                <li>
+                    <h4>ТИП САЙТА</h4>
+                </li>
+                <select name="list1" id="list" option >
+                   <option value="название">Выберете пункт...</option>
+                    <option value="option1">Option1</option>
+                    <option value="option2">Option2</option>
+                    <option value="option3">Option3</option>
+                    <option value="option4">Option4</option>
+                </select>
+                <li>
+                    <h4>ДИЗАЙН</h4>
+                </li>
+                <select name="list1" id="list" option>
+                   <option value="название">Выберете пункт...</option>
+                    <option value="option5">Option5</option>
+                    <option value="option6">Option6</option>
+                    <option value="option7">Option7</option>
+                    <option value="option8">Option8</option>
+                </select>
+                <li>
+                    <h4>АДАПТИВНОСТЬ</h4>
+                </li>
+                <select name="list1" id="list" option>
+                   <option value="название">Выберете пункт...</option>
+                    <option value="option9">Option9</option>
+                    <option value="option10">Option10</option>
+                    <option value="option11">Option11</option>
+                    <option value="option12">Option12</option>
+                </select>
+            </ul>
+            <span>Сроки<br> <br>Стоимость</span>
+        </div>
+    
+    
+        <div class="title_statistika">
             <h2>Статистика работ</h2>
             <ul>
-                <img src="img/Smile.png" alt="А где картинка 0-0?">
+               <!-- <img src="img/Smile.png" alt="А где картинка 0-0?">-->
                 <li>-1</li>
-                <span>Довольные</span>
-                <br><img src="img/Arrows2.png" alt="А где картинка 0-0?">
+                <span class="d">Довольные</span>
+                <!--<br><img src="img/Arrows2.png" alt="А где картинка 0-0?">-->
                 <li>10,000</li>
-                <span>Часы в работе</span>
-                <br><img src="img/check.png" alt="А где картинка 0-0?">
+                <span class="h">Часы в работе</span>
+               <!-- <br><img src="img/check.png" alt="А где картинка 0-0?">-->
                 <li>0</li>
-                <span>Сданные проекты</span>
-                <br><img src="img/Cup.png" alt="А где картинка 0-0?">
+                <span class="b">Сданные проекты</span>
+                <!--<br><img src="img/Cup.png" alt="А где картинка 0-0?">-->
                 <li>0</li>
-                <span>Награды</span>        
-            </ul>         
-         </div></div>
-         <div class="main"><div class="title_comment">
-             <h4>Отзывы</h4>
-             <img src="img/Levi.jpg" style="width: 100px" alt="А где картинка 0-0?">
-             <p>Ну, что я могу сказать. Ничего не ожидал, получил еще хуже.-1 к довольным.</p>
-             <p>Леви Аккерман, капрал в элитном отраде разведкорпуса</p>
-             <input type="radio" name="1" >
-             <input type="radio" name="1">
-             <input type="radio" name="1">
-         </div></div>
-         <div class="main"><div class="title_contact">
+                <span class="n">Награды</span>
+            </ul>
+        </div>
+  
+    
+        <div class="title_comment">
+            <h4>Отзывы</h4>
+            <img class="Levi", src="img/Levi.jpg" style="width: 100px" alt="А где картинка 0-0?">
+            <p >Ну, что я могу сказать. Ничего не ожидал, получил еще хуже. <br>-1 к довольным.</p>
+            <p class="Livi"><b>Леви Аккерман,</b> капрал в элитном отраде разведкорпуса</p>
+            <input type="radio" name="1">
+            <input type="radio" name="1">
+            <input type="radio" name="1">
+        </div>
+  
+    
+        <div class="title_contact">
             <h2>Контакты</h2>
             <spain>Пишите, звоните пн-пт с 9:00-17:00</spain>
-            <br><img src="img/geo.png" alt="А где картинка 0-0?">
-            <p>Санкт-Петербург</p>
-            <img src="img/sms.png" alt="А где картинка 0-0?">
-            <p>бла-бла@бла.руг</p>
-            <img src="img/tel.png" alt="А где картинка 0-0?">
-            <p>+7(888)-563-54-27</p>
-                <p>Задайте вопрос</p>
-                 <input type="text" name="text_input" value="" placeholder="введите Ваше имя">
-                 <input type="email" alue="" placeholder="введите Ваш email">
-                <p><textarea name="name1" id="id1" cols="30" rows="10"></textarea></p>
-                 <input type="submit" value="Отправить"> 
-             
-              </div></div>
+            <!--<br><img src="img/geo.png" alt="А где картинка 0-0?">-->
+            <p class="p1">Санкт-Петербург</p>
+            <!--<img src="img/sms.png" alt="А где картинка 0-0?">-->
+            <p class="p2">бла-бла@бла.руг</p>
+           <!--<img src="img/tel.png" alt="А где картинка 0-0?">-->
+            <p class="p3">+7(888)-563-54-27</p>
+            <p class="p6">Задайте вопрос</p>
+            <input class="text" type="text" name="text_input" value="" placeholder="введите Ваше имя">
+            <input class="email" type="email" value="" placeholder="введите Ваш email">
+            <p class="p5"><textarea name="name1" id="id1" cols="55" rows="5" value="" placeholder="Сообщение"></textarea></p>
+            <input class="ot" type="submit" value="Отправить">
+
+        </div>
+   
 
 </body>
 
