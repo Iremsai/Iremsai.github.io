@@ -1,5 +1,5 @@
 body {
-    font-family: 'Caveat', cursive, Arial, sans-serif;
+    font-family: 'Philosopher', Arial, sans-serif;
 }
 
 nav {
@@ -385,7 +385,7 @@ main {
         max-height: 20%;
         border: 1px solid blueviolet;
         justify-content: space-evenly;
-        align-items: flex-start;
+        align-items: center;
         flex-wrap: nowrap;
     }
     .title_ican ul li img {
