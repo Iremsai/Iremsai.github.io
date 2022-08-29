@@ -344,9 +344,9 @@ main {
 }
 
 .topanim{
-     -webkit-animation: anims 1s ease-in forwards;
-    -o-animation: anims 1s ease-in forwards;
-    animation: anims 1s ease-in forwards;
+     -webkit-animation: anims 1.5s ease-in forwards;
+    -o-animation: anims 1.5s ease-in forwards;
+    animation: anims 1.5s ease-in forwards;
    
 }
 
