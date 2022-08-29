@@ -615,17 +615,26 @@ main {
 }
 
 .title_statistika {
-    height: 500px;
+    height: 600px;
     background: url(../img/fon2.png) center/cover no-repeat;
     background-attachment: fixed;
 }
 
-@media(max-width:440px) {
+/*@media(max-width:440px) {
 
     .title_statistika {
         height: 100%;
     }
+    .title_statistika h2 {
+    display: flex;
+    height: 10%;
+    font-size: 25px;
+    color: blueviolet;
+    justify-content: center;
+    align-items: center;
 }
+    
+}*/
 
 .title_statistika h2 {
     display: flex;
@@ -645,7 +654,7 @@ main {
     color: darkblue;
     font-size: 14px;
     width: 220px;
-    margin-top: 105;
+    /*margin-top: 105px;*/
     margin-bottom: 20px;
     padding-top: 60px;
     line-height: 10px;
@@ -665,6 +674,22 @@ main {
 
 .pice {
     background: url(../img/Cup.png) 50% 0%/57px no-repeat;
+}
+
+@media(max-width:440px) {
+
+    .title_statistika {
+        height: 100%;
+    }
+    .title_statistika h2 {
+    display: flex;
+    height: 10%;
+    font-size: 25px;
+    color: blueviolet;
+    justify-content: center;
+    align-items: center;
+}
+    
 }
 
 .title_comment {
