@@ -60,7 +60,15 @@ $('#js-button').click(function () {
 
 $(document).ready(function () {
     $('.preloader').addClass("prel");
+    
+     $('.modal-title').css("color", "blue");
 
+    setTimeout(function () {
+        $("#modal").click();
+    }, 10000);
+
+    
+    
     $(window).scroll(() => {
         let scrollDistance = $(window).scrollTop();
         $('.title_me, .title_ican, .title_case, .title_price, .title_comment, .title_contact').each((i, el) => {
@@ -83,7 +91,21 @@ $(document).ready(function () {
 
     });
 
-
+ $(function () {
+     var ican = $(".title_ican"); // Ищем блок 
+        var place = true;
+        $(window).scroll(function () {
+            var dst = ($(window).scrollTop() > (ican.position().top - $(window).height()+500));
+            if (dst && place) {
+                status = false;
+            $('.title_ican ul').addClass("topanim");};
+    
+        });
+    
+ });
+ 
+    
+    
 
     $(function () {
         var block = $(".title_statistika"); // Ищем блок 
@@ -181,15 +203,6 @@ $(document).ready(function () {
 
     showVisible();
     window.onscroll = showVisible;
-
-
-
-
-    $('.modal-title').css("color", "blue");
-
-    setTimeout(function () {
-        $("#modal").click();
-    }, 10000);
 
 
     $('.galery').magnificPopup({
