@@ -1,5 +1,14 @@
+@font-face {
+	font-family: 'Conv_Philosopher-Italic';
+	src: url('../fonts/Philosopher-Italic.eot');
+	src: local('☺'), url('../fonts/Philosopher-Italic.woff') format('woff'), url('../fonts/Philosopher-Italic.ttf') format('truetype'), url('../fonts/Philosopher-Italic.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 body {
-    font-family: 'Philosopher', Arial, sans-serif;
+    font-family: 'Conv_Philosopher-Italic', Arial, sans-serif;
+    
 }
 
 nav {
@@ -52,7 +61,7 @@ main {
     line-height: 60px;
     color: white;
     margin-right: 30px;
-    font-size: 14px;
+    font-size: 16px;
     font-style: italic;
     -webkit-animation: topshift 0.4s ease forwards;
     -o-animation: topshift 0.4s ease forwards;
@@ -162,7 +171,7 @@ main {
     background: none;
     border-radius: 7px;
     color: fuchsia;
-    font-size: 13px;
+    font-size: 14px;
     padding: 0px 13px;
     margin: 30px 15px 0px 15px;
     transition: all 0.3s;
@@ -240,17 +249,16 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 15px;
-    font-style: italic;
+    font-size: 16px;
     color: darkblue;
 }
 
-@media(max-width:690px) {
+@media(max-width:990px) {
     .Text {
         justify-content: space-between;
         overflow: scroll;
         max-height: 300px;
-        font-size: 13px;
+        font-size: 14px;
         outline: 1px solid blueviolet;
         border-radius: 2%;
         padding: 3%;
@@ -265,7 +273,7 @@ main {
     background: url(../img/down.png) 5% 50%/15px no-repeat;
     border-radius: 7px;
     color: fuchsia;
-    font-size: 13px;
+    font-size: 14px;
     padding: 0px 30px;
     margin: 20px 15px 0px 15px;
     transition: all 0.3s;
@@ -329,7 +337,6 @@ main {
 .title_ican ul li p {
     font-size: 15px;
     color: darkblue;
-    font-style: italic;
     text-transform: inherit;
     transform: scale(1);
     transition: all 0.3s;
@@ -433,7 +440,6 @@ main {
     text-align: center;
     color: darkblue;
     font-size: 14px;
-    font-style: italic;
     text-transform: inherit;
 }
 
@@ -620,21 +626,6 @@ main {
     background-attachment: fixed;
 }
 
-/*@media(max-width:440px) {
-
-    .title_statistika {
-        height: 100%;
-    }
-    .title_statistika h2 {
-    display: flex;
-    height: 10%;
-    font-size: 25px;
-    color: blueviolet;
-    justify-content: center;
-    align-items: center;
-}
-    
-}*/
 
 .title_statistika h2 {
     display: flex;
@@ -654,7 +645,6 @@ main {
     color: darkblue;
     font-size: 14px;
     width: 220px;
-    /*margin-top: 105px;*/
     margin-bottom: 20px;
     padding-top: 60px;
     line-height: 10px;

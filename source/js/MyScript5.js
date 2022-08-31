@@ -1,7 +1,6 @@
 "use strict"
 $('#js-button').click(function () {
 
-
     let
         choice1 = $('#list1').val(),
         choice2 = $('#list2').val(),
@@ -56,19 +55,15 @@ $('#js-button').click(function () {
     $('#js-result').html('Сроки: ' + sum2 + ' дней' + '<br>Стоимость: ' + sum1 + ' рублей');
 });
 
-
-
 $(document).ready(function () {
     $('.preloader').addClass("prel");
     
-     $('.modal-title').css("color", "blue");
+     $('.modal-title').css("color", "indigo");
 
     setTimeout(function () {
         $("#modal").click();
     }, 10000);
 
-    
-    
     $(window).scroll(() => {
         let scrollDistance = $(window).scrollTop();
         $('.title_me, .title_ican, .title_case, .title_price, .title_comment, .title_contact').each((i, el) => {
@@ -104,9 +99,6 @@ $(document).ready(function () {
     
  });
  
-    
-    
-
     $(function () {
         var block = $(".title_statistika"); // Ищем блок 
         var status = true;
@@ -203,7 +195,6 @@ $(document).ready(function () {
 
     showVisible();
     window.onscroll = showVisible;
-
 
     $('.galery').magnificPopup({
         delegate: 'img', // child items selector, by clicking on it popup will open
